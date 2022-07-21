@@ -66,8 +66,10 @@ src: https://www.youtube.com/watch?v=KqzLEKHtLlw&list=PL0zysOflRCekX8OO7V7pGQ9kx
 ![image](https://user-images.githubusercontent.com/69948118/180116661-73a2eb82-74b0-434c-ab0e-6bbf5908aaca.png)
 
 
+- Pagination
+![image](https://user-images.githubusercontent.com/69948118/180129406-1f62bced-827f-4f01-beb2-9d9b4b9e0346.png)
 
-
+- 
 
 
 
