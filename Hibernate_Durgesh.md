@@ -73,6 +73,10 @@ src: https://www.youtube.com/watch?v=KqzLEKHtLlw&list=PL0zysOflRCekX8OO7V7pGQ9kx
 ![image](https://user-images.githubusercontent.com/69948118/180130446-a7e9f09c-28f3-4eb9-ad51-03e984e8166e.png)
 
 - Hibernate Cascading
+- Before  cascading we have to save associate entity objects manually
+![image](https://user-images.githubusercontent.com/69948118/180131072-32f080e1-332e-4a3e-9c44-50137e1d9539.png)
+![image](https://user-images.githubusercontent.com/69948118/180131347-415b8ecf-972d-4289-b66c-4a00947a61c2.png)
+![image](https://user-images.githubusercontent.com/69948118/180132587-53df9c5a-efe9-4558-98cc-b322268363fd.png)
 
 
 
