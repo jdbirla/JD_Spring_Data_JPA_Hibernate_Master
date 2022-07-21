@@ -69,7 +69,11 @@ src: https://www.youtube.com/watch?v=KqzLEKHtLlw&list=PL0zysOflRCekX8OO7V7pGQ9kx
 - Pagination
 ![image](https://user-images.githubusercontent.com/69948118/180129406-1f62bced-827f-4f01-beb2-9d9b4b9e0346.png)
 
-- 
+- Native SQL Queries
+![image](https://user-images.githubusercontent.com/69948118/180130446-a7e9f09c-28f3-4eb9-ad51-03e984e8166e.png)
+
+- Hibernate Cascading
+
 
 
 
