@@ -60,6 +60,11 @@ src: https://www.youtube.com/watch?v=KqzLEKHtLlw&list=PL0zysOflRCekX8OO7V7pGQ9kx
 - HQL
 ![image](https://user-images.githubusercontent.com/69948118/180115038-c2ea1ca1-33ad-4471-9d86-b26ab2f4631c.png)
 ![image](https://user-images.githubusercontent.com/69948118/180115094-33979451-c8fa-4f31-b2d2-cade7006fb43.png)
+![image](https://user-images.githubusercontent.com/69948118/180115367-a87ac837-3b50-4521-93f3-38f7e1f22b18.png)
+![image](https://user-images.githubusercontent.com/69948118/180115723-49e9d5ee-0bbd-4422-8d54-3f9527312c30.png)
+![image](https://user-images.githubusercontent.com/69948118/180116751-ecd90fbd-727d-43de-9316-d39ba4660281.png)
+![image](https://user-images.githubusercontent.com/69948118/180116661-73a2eb82-74b0-434c-ab0e-6bbf5908aaca.png)
+
 
 
 
