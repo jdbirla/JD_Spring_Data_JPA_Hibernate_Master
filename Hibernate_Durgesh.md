@@ -78,9 +78,16 @@ src: https://www.youtube.com/watch?v=KqzLEKHtLlw&list=PL0zysOflRCekX8OO7V7pGQ9kx
 ![image](https://user-images.githubusercontent.com/69948118/180131347-415b8ecf-972d-4289-b66c-4a00947a61c2.png)
 ![image](https://user-images.githubusercontent.com/69948118/180132587-53df9c5a-efe9-4558-98cc-b322268363fd.png)
 
-
-
-
+- Caching 
+![image](https://user-images.githubusercontent.com/69948118/180144632-e8d582e6-ef24-46b8-8344-53f314e62816.png)
+![image](https://user-images.githubusercontent.com/69948118/180145966-a1b9d544-6e48-4a83-a813-5863e842c186.png)
+![image](https://user-images.githubusercontent.com/69948118/180147241-d66ec2d5-8cca-4388-bf81-79c8cd732ced.png)
+![image](https://user-images.githubusercontent.com/69948118/180147994-fa4ca5b9-90c7-4192-980b-a106c51d9e60.png)
+![image](https://user-images.githubusercontent.com/69948118/180149449-a2ba5f2a-66d7-4470-8431-593f29fd62f1.png)
+![image](https://user-images.githubusercontent.com/69948118/180148661-66ce56d2-2659-48e2-ac6b-22d17a458b78.png)
+![image](https://user-images.githubusercontent.com/69948118/180148673-dcb0bda2-c11f-49e1-9d64-c3b11552fd3b.png)
+![image](https://user-images.githubusercontent.com/69948118/180149584-52f4c67a-b630-414e-8a8d-ab28f6ebb273.png)
+![image](https://user-images.githubusercontent.com/69948118/180149554-5d073928-3aee-4a94-ba97-505e63f54211.png)
 
 
 
