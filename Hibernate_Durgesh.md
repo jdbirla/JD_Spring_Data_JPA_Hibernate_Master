@@ -89,6 +89,15 @@ src: https://www.youtube.com/watch?v=KqzLEKHtLlw&list=PL0zysOflRCekX8OO7V7pGQ9kx
 ![image](https://user-images.githubusercontent.com/69948118/180149584-52f4c67a-b630-414e-8a8d-ab28f6ebb273.png)
 ![image](https://user-images.githubusercontent.com/69948118/180149554-5d073928-3aee-4a94-ba97-505e63f54211.png)
 
+- Spring + Hibernate configuration
+![image](https://user-images.githubusercontent.com/69948118/180152888-988f68d2-5b9a-481a-95f6-0a53dc5fd8f2.png)
+![image](https://user-images.githubusercontent.com/69948118/180153016-ddcf9f17-5615-459f-aa0e-415cb32022bd.png)
+![image](https://user-images.githubusercontent.com/69948118/180153104-95793c31-0f3a-48dc-9a2a-438434ab556c.png)
+![image](https://user-images.githubusercontent.com/69948118/180153858-b2c9940d-525c-4304-8098-50dc4eb49154.png)
+![image](https://user-images.githubusercontent.com/69948118/180154676-f2e6a31f-8ca5-400e-94de-bb1fa665ce71.png)
+![image](https://user-images.githubusercontent.com/69948118/180158369-e4132e74-ab55-4e5a-bead-1c290280c4c0.png)
+
+
 
 
 
