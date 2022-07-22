@@ -103,6 +103,13 @@ src: https://www.youtube.com/watch?v=KqzLEKHtLlw&list=PL0zysOflRCekX8OO7V7pGQ9kx
 ![image](https://user-images.githubusercontent.com/69948118/180339061-5115dbf1-f04a-424b-b17f-f0d308654239.png)
 
 
+- Hibernate XML mapping
+![image](https://user-images.githubusercontent.com/69948118/180340382-5048ec1a-5ef7-4339-b226-13fed4dfd3a6.png)
+![image](https://user-images.githubusercontent.com/69948118/180340402-cd8a1932-9156-44ef-a8ad-8030a7cbffd8.png)
+
+- Hibernate Criteria
+![image](https://user-images.githubusercontent.com/69948118/180341326-09e63cba-981e-4796-a625-7bf278c7be97.png)
+![image](https://user-images.githubusercontent.com/69948118/180341416-225b19f2-f86b-41a5-9518-63c68f2ccdbc.png)
 
 
 
