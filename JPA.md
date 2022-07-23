@@ -1,4 +1,7 @@
 ## JPA
+Src: https://www.youtube.com/watch?v=MaI0_XdpdP8&t=1844s
+Github: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbFAzMVliR0c0V3R5NkhGVEIyc0dmN3ZzeEs4QXxBQ3Jtc0ttUWJCbzZrOHBaUzdKbGVlTDRIRGJSd1FGNHZHNjdERk1pYVVhRmVzSFVNR3RvQTNpRm1qWVd0S2dFdEN0VWt0cEI3WFl5b3N4aGtOOVFzWVkxTEt5Mi1EMDd4OWZxaFpBSmZTX0s5Z0lLZDRWbVU1OA&q=https%3A%2F%2Fgithub.com%2Fin28minutes%2Fgetting-started-in-5-steps%2Ftree%2Fmaster%2Fjpa-in-10-steps&v=MaI0_XdpdP8
+
 ![image](https://user-images.githubusercontent.com/69948118/180342274-8e363e44-c790-4312-a35f-c93c475e3c81.png)
 ![image](https://user-images.githubusercontent.com/69948118/180342721-0d7b9710-ca66-4630-8376-a87f5ed3e9d6.png)
 ![image](https://user-images.githubusercontent.com/69948118/180342787-b79f10cb-7e8a-4edd-8145-15177a599be7.png)
