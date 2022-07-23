@@ -427,3 +427,18 @@ java -cp /ProgrammingExcellence/Workspaces/Rithus.com/ListDirectoryContentInGitF
 zip -r $1.zip . -x "target/*" -x ".*/*" -x ".*" -x "*.md" -x "mvn*" -x "*.zip"
 ```
 ---
+
+---
+### JPA in Details
+
+SRC : https://www.youtube.com/watch?v=ndHywjc3-kY&list=PL6oD2syjfW7COL__RNrWl4S97vNcqh3mO
+
+![image](https://user-images.githubusercontent.com/69948118/180624602-39c327d8-cf88-4743-928f-190c514b0ccb.png)
+![image](https://user-images.githubusercontent.com/69948118/180624632-bc0380dd-78ab-49e9-9070-8e2e5741f54f.png)
+![image](https://user-images.githubusercontent.com/69948118/180624721-3efc471c-0b91-4e3e-b109-b4d784348769.png)
+![image](https://user-images.githubusercontent.com/69948118/180624980-99ab669d-670f-4b05-8999-3d1a89251c64.png)
+
+
+
+
+
