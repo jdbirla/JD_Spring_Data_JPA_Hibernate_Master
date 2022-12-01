@@ -19,6 +19,7 @@ import java.util.Objects;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
+
 @Table(
         name = "products" ,
         schema = "ecommerce",
@@ -43,6 +44,7 @@ public class Product {
     private LocalDateTime dateCreated;
     @UpdateTimestamp
     private LocalDateTime lastUpdated;
+    private Boolean active;
 
     @Override
     public boolean equals(Object o) {
