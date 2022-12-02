@@ -19,21 +19,55 @@ import java.util.Objects;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-
+//@NamedQuery(
+//        name = "Product.findByPrice",
+//        query = "select p from Product p where p.price =:price"
+//)
+@NamedQueries(
+        {
+                @NamedQuery(
+                        name = "Product.findAllProductsOrderByNameDesc",
+                        query = "select p from Product p order by p.name desc"
+                ),
+                @NamedQuery(
+                        name = "Product.findByPrice",
+                        query = "select p from Product p where p.price =:price"
+                )
+        }
+)
+//@NamedNativeQuery(
+//        name = "Product.findBySku",
+//        query = "select * from products p where p.stock_keeping_unit = ?1",
+//        resultClass = Product.class
+//)
+@NamedNativeQueries(
+        {
+                @NamedNativeQuery(
+                        name = "Product.findAllProductsOrderByNameAsc",
+                        query = "select * from products p order by p.name asc",
+                        resultClass = Product.class
+                ),
+                @NamedNativeQuery(
+                        name = "Product.findBySku",
+                        query = "select * from products p where p.stock_keeping_unit = ?1",
+                        resultClass = Product.class
+                )
+        }
+)
 @Table(
-        name = "products" ,
+        name = "products",
         schema = "ecommerce",
         uniqueConstraints = {
-                @UniqueConstraint(name = "sku_uni_const" , columnNames = "stock_keeping_unit" )
+                @UniqueConstraint(name = "sku_uni_const", columnNames = "stock_keeping_unit")
         }
 )
 public class Product {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE , generator = "product_seq")
-    @SequenceGenerator(name = "product_seq" , sequenceName = "product_seq_db" , allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "product_seq")
+    @SequenceGenerator(name = "product_seq", sequenceName = "product_seq_db", allocationSize = 1)
     private Long id;
-    @Column(name = "stock_keeping_unit" , nullable = false)
+    @Column(name = "stock_keeping_unit", nullable = false)
     private String sku;
     @Column(nullable = false)
     private String name;
