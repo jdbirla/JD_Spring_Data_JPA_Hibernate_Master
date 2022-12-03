@@ -65,7 +65,7 @@ public class Product {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "product_seq")
-    @SequenceGenerator(name = "product_seq", sequenceName = "product_seq_db", allocationSize = 1)
+    @SequenceGenerator(name = "product_seq", sequenceName = "product_seq_db", allocationSize = 1 , initialValue = 16)
     private Long id;
     @Column(name = "stock_keeping_unit", nullable = false)
     private String sku;
@@ -79,7 +79,9 @@ public class Product {
     @UpdateTimestamp
     private LocalDateTime lastUpdated;
     private Boolean active;
-
+    @ManyToOne
+    @JoinColumn(name = "category_id", referencedColumnName = "id")
+    private ProductCategory category;
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
