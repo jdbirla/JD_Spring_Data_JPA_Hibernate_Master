@@ -20,4 +20,7 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
             " p.name LIKE CONCAT('%' , :query , '%') OR" +
             " p.description LIKE CONCAT('%' , :query , '%')" , nativeQuery = true)
     List<Product> searchProductsSQL(@Param("query") String query);
+
+    @Override
+    void deleteAllById(Iterable<? extends Long> longs);
 }
