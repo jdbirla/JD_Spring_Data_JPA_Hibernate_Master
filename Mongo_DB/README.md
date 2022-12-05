@@ -15,7 +15,7 @@ Instructor: Infybuzz Learning
 ## Creating Data Base
 ![image](https://user-images.githubusercontent.com/69948118/205530750-e074f225-6516-4c7c-8b46-4edf4d593011.png)
 
-## Mondo DB read query
+### Mondo DB read query
 ```mongodb
 {
     $and : [
@@ -31,4 +31,24 @@ Instructor: Infybuzz Learning
 ```
 ```mongodb
 { $or : [ { "name" : "Jitu" }, { "mail" : "petere@gamil.com" } ] }
+```
+```
+{ "name" : { $in : [ "Jitu", "steve" ] } }
+``
+```
+db.student.find({ "name": "Steve" }, { "name" : 1, "mail" :2 ,"subjects" : 1}) 
+```
+
+### Update query
+```
+db.student.update(
+    {
+      "name" : "Jitu"
+    },
+    {
+      $set : {
+         "mail" : "Jitu@gmail.com"
+      }
+    }
+)
 ```
