@@ -7,3 +7,7 @@ Instructor: Infybuzz Learning
 ![image](https://user-images.githubusercontent.com/69948118/205527939-76d276bb-3bcb-4f26-928d-562aa525d35e.png)
 ![image](https://user-images.githubusercontent.com/69948118/205528057-df7d0663-1f34-4540-84f8-20ae1b7be036.png)
 ![image](https://user-images.githubusercontent.com/69948118/205528089-6b3e7596-15ef-43e4-9567-1bd4d9619536.png)
+### Installing mondodb in windows
+ - After installation create C:\data\db directories in installed dircetory
+ - installing https://studio3t.com/ client for UI
+ 
