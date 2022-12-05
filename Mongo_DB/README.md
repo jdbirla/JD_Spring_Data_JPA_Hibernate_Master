@@ -10,4 +10,25 @@ Instructor: Infybuzz Learning
 ### Installing mondodb in windows
  - After installation create C:\data\db directories in installed dircetory
  - installing https://studio3t.com/ client for UI
- 
+ ![image](https://user-images.githubusercontent.com/69948118/205530559-f076c237-71f2-41ab-916b-f4ebe80b0f35.png)
+
+## Creating Data Base
+![image](https://user-images.githubusercontent.com/69948118/205530750-e074f225-6516-4c7c-8b46-4edf4d593011.png)
+
+## Mondo DB read query
+```mongodb
+{
+    $and : [
+        {
+            "name" : "Peter"
+        },
+        {
+            "mail" : "petere@gamil.com"
+        }
+    ]
+}
+
+```
+```mongodb
+{ $or : [ { "name" : "Jitu" }, { "mail" : "petere@gamil.com" } ] }
+```
