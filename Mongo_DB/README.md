@@ -15,7 +15,7 @@ Instructor: Infybuzz Learning
 ## Creating Data Base
 ![image](https://user-images.githubusercontent.com/69948118/205530750-e074f225-6516-4c7c-8b46-4edf4d593011.png)
 
-### Mondo DB read query
+### Mondo DB read query using studio 3T
 ```mongodb
 {
     $and : [
@@ -52,3 +52,10 @@ db.student.update(
     }
 )
 ```
+
+### CRUD Operation using Spring Data MongoDb
+- By defautl spring Boot conneting with default daba base in mongo which is Test for overrding that we have create config file 
+- articlet https://stackoverflow.com/questions/72537715/spring-boot-and-mongodb-always-connect-to-database-test
+- Check our class com.jd.spring.data.mongo.MongoConfig
+
+
