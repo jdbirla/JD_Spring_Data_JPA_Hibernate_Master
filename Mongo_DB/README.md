@@ -16,7 +16,7 @@ Instructor: Infybuzz Learning
 ![image](https://user-images.githubusercontent.com/69948118/205530750-e074f225-6516-4c7c-8b46-4edf4d593011.png)
 
 ### Mondo DB read query using studio 3T
-```mongodb
+```
 {
     $and : [
         {
@@ -29,12 +29,12 @@ Instructor: Infybuzz Learning
 }
 
 ```
-```mongodb
+```
 { $or : [ { "name" : "Jitu" }, { "mail" : "petere@gamil.com" } ] }
 ```
 ```
 { "name" : { $in : [ "Jitu", "steve" ] } }
-``
+```
 ```
 db.student.find({ "name": "Steve" }, { "name" : 1, "mail" :2 ,"subjects" : 1}) 
 ```
@@ -57,5 +57,14 @@ db.student.update(
 - By defautl spring Boot conneting with default daba base in mongo which is Test for overrding that we have create config file 
 - articlet https://stackoverflow.com/questions/72537715/spring-boot-and-mongodb-always-connect-to-database-test
 - Check our class com.jd.spring.data.mongo.MongoConfig
+
+---
+# Relationship in MongoDB
+![image](https://user-images.githubusercontent.com/69948118/206070591-a4449a22-8e08-42b8-a498-5093025a4ea7.png)
+![image](https://user-images.githubusercontent.com/69948118/206070687-42d8b963-9297-443f-98cf-be7d0618650a.png)
+
+
+
+
 
 
