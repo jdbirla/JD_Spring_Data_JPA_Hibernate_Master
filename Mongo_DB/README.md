@@ -63,6 +63,10 @@ db.student.update(
 ![image](https://user-images.githubusercontent.com/69948118/206070591-a4449a22-8e08-42b8-a498-5093025a4ea7.png)
 ![image](https://user-images.githubusercontent.com/69948118/206070687-42d8b963-9297-443f-98cf-be7d0618650a.png)
 
+---
+# MongoDB Compass
+https://www.mongodb.com/try/download/compass for the GUI tool from Mongodb offical
+![image](https://user-images.githubusercontent.com/69948118/206079218-e9a0886c-acf6-4ae2-a9d7-c2febcfee9b7.png)
 
 
 
