@@ -3,7 +3,9 @@ package com.jd.spring.data.mongo.service;
 import java.util.List;
 
 import com.jd.spring.data.mongo.entity.Student;
+import com.jd.spring.data.mongo.repository.DepartmentRepository;
 import com.jd.spring.data.mongo.repository.StudentRepository;
+import com.jd.spring.data.mongo.repository.SubjectRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -17,9 +19,25 @@ public class StudentService {
     @Autowired
     StudentRepository studentRepository;
 
-    public Student createStudent(Student student) {
-        Student savedStudent = studentRepository.save(student);
-        return savedStudent;
+    @Autowired
+    DepartmentRepository departmentRepository;
+
+    @Autowired
+    SubjectRepository subjectRepository;
+
+
+//    public Student createStudent(Student student) {
+//        Student savedStudent = studentRepository.save(student);
+//        return savedStudent;
+//    }
+    public Student createStudent (Student student) {
+        if (student.getDepartment() != null) {
+            departmentRepository.save(student.getDepartment());
+        }
+        if (student.getSubjects() != null && student.getSubjects().size() > 0) {
+            subjectRepository.saveAll(student.getSubjects());
+        }
+        return studentRepository.save(student);
     }
 
     public Student getStudentbyId(String id) {
@@ -42,8 +60,11 @@ public class StudentService {
 
 
     public List<Student> getStudentsByName (String name) {
-        return studentRepository.findByName(name);
+       // return studentRepository.findByName(name);
+        return studentRepository.getByName(name);
     }
+
+
 
     public Student studentsByNameAndMail (String name, String email) {
         return studentRepository.findByEmailAndName(email, name);
@@ -79,5 +100,8 @@ public class StudentService {
 
     public List<Student> nameStartsWith (String name) {
         return studentRepository.findByNameStartsWith(name);
+    }
+    public List<Student> byDepartmentId (String deptId) {
+        return studentRepository.findByDepartmentId(deptId);
     }
 }
