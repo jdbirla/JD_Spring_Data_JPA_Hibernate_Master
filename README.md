@@ -12,3 +12,19 @@ docker run --detach --env MYSQL_ROOT_PASSWORD=myrootsqlpass --env MYSQL_USER=jd-
 3. When we required to create new database then create new database from root user using sql query or mysqlwork bench
 
 4. In order to get same databses and data use the same command to run the container which is step1
+
+5. Spring data JPA properties
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce?useSSL=false
+spring.datasource.username=root
+spring.datasource.password=mysqlpassword
+
+
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL8Dialect
+spring.jpa.properties.hibernate.dialect.storage_engine=innodb
+
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+```
