@@ -15,9 +15,9 @@ docker run --detach --env MYSQL_ROOT_PASSWORD=myrootsqlpass --env MYSQL_USER=jd-
 
 5. Spring data JPA properties
 ```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce?useSSL=false
+spring.datasource.url=jdbc:mysql://localhost:3306/myblog?useSSL=false
 spring.datasource.username=root
-spring.datasource.password=mysqlpassword
+spring.datasource.password=myrootsqlpass
 
 
 spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL8Dialect
