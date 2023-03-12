@@ -345,4 +345,17 @@ id="entityManagerFactory">
 ![image](https://user-images.githubusercontent.com/69948118/218351568-b014dd37-e601-4f34-9285-8f662363cc8f.png)
 
 ---
+## Hibernate N+1 Select Problem
+![image](https://user-images.githubusercontent.com/69948118/224542712-52446229-45fe-434e-a99c-c77f6c2861b6.png)
+![image](https://user-images.githubusercontent.com/69948118/224543098-5d025139-a5f6-4155-a196-1f3a4548bcc6.png)
+![image](https://user-images.githubusercontent.com/69948118/224543121-5ebc6b46-92a6-4ea9-83a8-2b30dd8a3842.png)
+![image](https://user-images.githubusercontent.com/69948118/224543285-cf477ea4-8b52-4772-962e-08bdf61b25e0.png)
+![image](https://user-images.githubusercontent.com/69948118/224543135-0b7e5b7c-3728-466e-8812-7209676433e0.png)
+![image](https://user-images.githubusercontent.com/69948118/224543295-e0ad1b17-ffe0-414b-8c3c-c9de7c152e1c.png)
+
+
+
+
+
+
 
