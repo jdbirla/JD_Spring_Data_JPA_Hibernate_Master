@@ -354,6 +354,40 @@ id="entityManagerFactory">
 ![image](https://user-images.githubusercontent.com/69948118/224543295-e0ad1b17-ffe0-414b-8c3c-c9de7c152e1c.png)
 ![image](https://user-images.githubusercontent.com/69948118/224543415-b38652a1-05c9-4bff-8e00-087e5a80222f.png)
 
+---
+## Interview Q&A
+
+![image](https://user-images.githubusercontent.com/69948118/224586407-00ecc345-3ba1-4280-8b00-db32a581b422.png)
+![image](https://user-images.githubusercontent.com/69948118/224586436-537b617d-a7de-4f5a-8620-f2e700febea3.png)
+![image](https://user-images.githubusercontent.com/69948118/224586573-84accf6d-4c15-436b-aaca-b4e39f593669.png)
+![image](https://user-images.githubusercontent.com/69948118/224586720-bc01eb2b-d495-45a7-bf26-3cf25d56cd9c.png)
+![image](https://user-images.githubusercontent.com/69948118/224586754-108d02ed-8530-464d-848a-04f6ec9fb0f9.png)
+![image](https://user-images.githubusercontent.com/69948118/224586832-1351895c-cfe8-4f71-9d8c-cca9d4108f41.png)
+![image](https://user-images.githubusercontent.com/69948118/224586990-78c6c4e2-2460-4a4b-8524-5d256d0bff64.png)
+![image](https://user-images.githubusercontent.com/69948118/224587101-59507ce8-dc77-4a8f-bc32-8a7a4d755907.png)
+![image](https://user-images.githubusercontent.com/69948118/224587299-d095db0f-9701-40d0-b44b-7fd06c0abe55.png)
+![image](https://user-images.githubusercontent.com/69948118/224587472-f7b843f4-28a9-4740-b3fe-bd944310db3e.png)
+![image](https://user-images.githubusercontent.com/69948118/224587606-10ba80d4-5c8a-441e-b7f1-6037822d8390.png)
+![image](https://user-images.githubusercontent.com/69948118/224587862-844589d2-d90e-42b0-ad1a-4c0eda439f89.png)
+![image](https://user-images.githubusercontent.com/69948118/224588000-6e17f1f1-5fbe-44a4-8f04-d736c8dff42f.png)
+![image](https://user-images.githubusercontent.com/69948118/224588092-4d9c9032-cd51-46f9-a11d-a3ceffad5be7.png)
+![image](https://user-images.githubusercontent.com/69948118/224588228-07ceeadf-4792-4d74-8d78-9939dbf0cbe4.png)
+![image](https://user-images.githubusercontent.com/69948118/224588276-c3574d9d-e760-4322-8164-dabaabbb20da.png)
+![image](https://user-images.githubusercontent.com/69948118/224588473-4da2d307-9c72-483d-a856-7f7a2c189203.png)
+![image](https://user-images.githubusercontent.com/69948118/224588524-7392f328-2741-40a4-a023-879e4eb9cc5a.png)
+![image](https://user-images.githubusercontent.com/69948118/224588581-81189c36-e07e-4024-9baa-3926575f588b.png)
+![image](https://user-images.githubusercontent.com/69948118/224588729-4ec4dd0b-5c7a-479d-a16e-27db168773a4.png)
+![image](https://user-images.githubusercontent.com/69948118/224588921-d7644bc8-f8e0-4c24-9ff0-d9527fe9e052.png)
+
+
+
+### Spring Boot connection with Hibernate using MySQL
+![image](https://user-images.githubusercontent.com/69948118/179099944-0946e393-6a65-4575-9e25-8f667dad010a.png)
+![image](https://user-images.githubusercontent.com/69948118/179100004-a6b19814-e824-4596-99e5-93850f47dc71.png)
+![image](https://user-images.githubusercontent.com/69948118/179115952-29008fb7-1677-49ca-8864-af94a2f5f375.png)
+![image](https://user-images.githubusercontent.com/69948118/179116154-03c7ae17-9106-4185-9bc9-39b33a551d6c.png)
+
+
 
 
 
