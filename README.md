@@ -27,4 +27,20 @@ spring.jpa.properties.hibernate.dialect.storage_engine=innodb
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
+
+#Show bind values
+# Pre Spring Boot 3.0.2
+# logging.level.org.hibernate.type.descriptor.sql=trace
+# Spring Boot 3.0.2+
+logging.level.org.hibernate.orm.jdbc.bind=TRACE
+
+# Using this data.sql will execute after table creation
+DATABASE_TO_UPPER=false
+spring.jpa.defer-datasource-initialization=true
+
+#Show SQL
+spring.jpa.properties.hibernate.show_sql=true
+
+#Format SQL
+spring.jpa.properties.hibernate.format_sql=true
 ```
