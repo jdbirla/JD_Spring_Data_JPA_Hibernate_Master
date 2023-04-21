@@ -80,3 +80,11 @@
 ![JPARelationalDBPrinciples_00017](https://user-images.githubusercontent.com/69948118/233595398-dcb952da-4e63-482b-80fe-67b3651a129f.jpg)
 
 ## Introduction with SpringBoot Testing
+
+## Hibernate with MySQL
+![HibernateDDLAuto_00001](https://user-images.githubusercontent.com/69948118/233602696-51df0810-6470-42e6-8d01-42b252dd773b.jpg)
+![HibernateDDLAuto_00002](https://user-images.githubusercontent.com/69948118/233602715-57c98444-0513-4626-b396-e672676bea69.jpg)
+![HibernateDDLAuto_00003](https://user-images.githubusercontent.com/69948118/233602721-6ef7671a-a631-4d95-97fe-f76e7458b0e1.jpg)
+![HibernateDDLAuto_00004](https://user-images.githubusercontent.com/69948118/233602729-f489cf8c-8f04-4153-aee7-bf72ccac7c15.jpg)
+![HibernateDDLAuto_00005](https://user-images.githubusercontent.com/69948118/233602733-569b15f3-32cb-4cee-a265-44f9e6cc19a6.jpg)
+![HibernateDDLAuto_00006](https://user-images.githubusercontent.com/69948118/233602736-244bae10-c580-4b4a-93ba-2172cf1fb120.jpg)
