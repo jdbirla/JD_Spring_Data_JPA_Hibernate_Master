@@ -37,6 +37,7 @@ logging.level.org.hibernate.orm.jdbc.bind=TRACE
 # Using this data.sql will execute after table creation
 DATABASE_TO_UPPER=false
 spring.jpa.defer-datasource-initialization=true
+spring.sql.init.mode=always
 
 #Show SQL
 spring.jpa.properties.hibernate.show_sql=true
