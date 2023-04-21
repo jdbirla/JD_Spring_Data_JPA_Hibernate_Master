@@ -33,6 +33,16 @@ spring.jpa.properties.hibernate.format_sql=true
 # logging.level.org.hibernate.type.descriptor.sql=trace
 # Spring Boot 3.0.2+
 logging.level.org.hibernate.orm.jdbc.bind=TRACE
+# Hibernate > 6.0 
+logging.level.org.hibernate.sql=debug
+logging.level.org.hibernate.orm.jdbc.bind=trace
+# Statistics and slow queries
+logging.level.logger.org.hibernate.stat=debug
+logging.level.logger.org.hibernate.SQL_SLOW=info
+# 2nd Level Cache
+logging.level.logger.org.hibernate.cache=debug
+
+
 
 # Using this data.sql will execute after table creation
 DATABASE_TO_UPPER=false
