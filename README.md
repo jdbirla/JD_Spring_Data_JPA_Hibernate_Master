@@ -43,4 +43,7 @@ spring.jpa.properties.hibernate.show_sql=true
 
 #Format SQL
 spring.jpa.properties.hibernate.format_sql=true
+
+# Enable H2 console
+spring.h2.console.enabled=true
 ```
