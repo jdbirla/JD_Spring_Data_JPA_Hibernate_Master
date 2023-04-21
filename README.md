@@ -44,8 +44,16 @@ spring.jpa.properties.hibernate.show_sql=true
 #Format SQL
 spring.jpa.properties.hibernate.format_sql=true
 
-# Enable H2 console
+# H2 Config
 spring.h2.console.enabled=true
+spring.datasource.url=jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MODE=MYSQL;DATABASE_TO_LOWER=TRUE;CASE_INSENSITIVE_IDENTIFIERS=TRUE
+spring.datasource.username=sa
+spring.datasource.password=password
+spring.jpa.database=mysql
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+spring.jpa.hibernate.ddl-auto=update
+
+
 ```
 
 6. MySql Create databse and user
