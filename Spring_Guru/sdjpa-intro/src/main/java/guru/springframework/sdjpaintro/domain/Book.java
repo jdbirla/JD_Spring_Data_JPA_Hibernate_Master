@@ -12,22 +12,25 @@ import java.util.Objects;
 public class Book {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String title;
     private String isbn;
     private String publisher;
 
+    private Long authorId;
+
 
     public Book() {
 
     }
 
-    public Book(String title, String isbn, String publisher) {
+    public Book(String title, String isbn, String publisher, Long author_id) {
         this.title = title;
         this.isbn = isbn;
         this.publisher = publisher;
+        this.authorId = author_id;
     }
 
     @Override
@@ -75,5 +78,13 @@ public class Book {
 
     public void setPublisher(String publisher) {
         this.publisher = publisher;
+    }
+
+    public Long getAuthorId() {
+        return authorId;
+    }
+
+    public void setAuthorId(Long authorId) {
+        this.authorId = authorId;
     }
 }
