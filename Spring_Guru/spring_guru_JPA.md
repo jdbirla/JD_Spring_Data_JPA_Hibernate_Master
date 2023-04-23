@@ -88,3 +88,71 @@
 ![HibernateDDLAuto_00004](https://user-images.githubusercontent.com/69948118/233602729-f489cf8c-8f04-4153-aee7-bf72ccac7c15.jpg)
 ![HibernateDDLAuto_00005](https://user-images.githubusercontent.com/69948118/233602733-569b15f3-32cb-4cee-a265-44f9e6cc19a6.jpg)
 ![HibernateDDLAuto_00006](https://user-images.githubusercontent.com/69948118/233602736-244bae10-c580-4b4a-93ba-2172cf1fb120.jpg)
+
+
+## Liqibase
+- https://docs.liquibase.com/tools-integrations/maven/home.html
+- https://docs.liquibase.com/concepts/bestpractices.html
+- https://docs.liquibase.com/tools-integrations/springboot/springboot.html
+![OverviewOfLiquidbase_00001](https://user-images.githubusercontent.com/69948118/233830658-d97ed8a9-5775-4930-bf25-cc92c6e880c1.jpg)
+![OverviewOfLiquidbase_00002](https://user-images.githubusercontent.com/69948118/233830666-1293882e-c567-485b-89b8-46c6e82c5e41.jpg)
+![OverviewOfLiquidbase_00003](https://user-images.githubusercontent.com/69948118/233830669-1ec9b7ba-2316-4a56-8a76-85dbd47b409d.jpg)
+![OverviewOfLiquidbase_00004](https://user-images.githubusercontent.com/69948118/233830671-47139c24-53e3-417f-83d1-b3d7e1b6a990.jpg)
+![OverviewOfLiquidbase_00005](https://user-images.githubusercontent.com/69948118/233830675-b54d9682-cef7-47bc-8bf6-d3a5bfdfdb1d.jpg)
+![OverviewOfLiquidbase_00006](https://user-images.githubusercontent.com/69948118/233830679-97734b02-9eae-4d6d-927b-d219abf9ba06.jpg)
+![OverviewOfLiquidbase_00007](https://user-images.githubusercontent.com/69948118/233830680-83670980-1c39-4f57-9aff-ed1ffad49205.jpg)
+![OverviewOfLiquidbase_00008](https://user-images.githubusercontent.com/69948118/233830683-2c97081e-6f76-4d21-8ed7-cd95a29d0c86.jpg)
+![OverviewOfLiquidbase_00009](https://user-images.githubusercontent.com/69948118/233830685-67c21520-2c51-4366-ad07-bbdcf8f11cf4.jpg)
+![OverviewOfLiquidbase_00010](https://user-images.githubusercontent.com/69948118/233830686-d7660cfd-84f9-408b-9141-3efc37abb307.jpg)
+![OverviewOfLiquidbase_00011](https://user-images.githubusercontent.com/69948118/233830687-91fd04b0-c000-489c-9897-8f93a28dd5b8.jpg)
+![OverviewOfLiquidbase_00012](https://user-images.githubusercontent.com/69948118/233830689-0d7b9d3f-0a9f-4e9b-b0aa-8fcc78c3f0e4.jpg)
+![OverviewOfLiquidbase_00013](https://user-images.githubusercontent.com/69948118/233830694-1b835c19-6e23-4364-8270-5b30e71a0e12.jpg)
+
+## Flyway
+![OverviewOfFlyway_00001](https://user-images.githubusercontent.com/69948118/233830703-41069012-3cfb-4c95-a139-94f0c68bd912.jpg)
+![OverviewOfFlyway_00002](https://user-images.githubusercontent.com/69948118/233830704-1973599b-c6f1-4663-a380-17c2994f96b3.jpg)
+![OverviewOfFlyway_00003](https://user-images.githubusercontent.com/69948118/233830705-d8ed279b-5e4f-4271-9d33-87afa3158c87.jpg)
+![OverviewOfFlyway_00004](https://user-images.githubusercontent.com/69948118/233830706-fda79123-d2a8-4b8c-82ed-184fe3b2ad15.jpg)
+![OverviewOfFlyway_00005](https://user-images.githubusercontent.com/69948118/233830707-07ad91d3-44c8-482b-9573-32974d54f788.jpg)
+![OverviewOfFlyway_00006](https://user-images.githubusercontent.com/69948118/233830709-71345909-4203-4beb-aeb1-40ffe715d43a.jpg)
+![OverviewOfFlyway_00007](https://user-images.githubusercontent.com/69948118/233830711-ecf47600-e83d-490c-8c3d-1d54afc17496.jpg)
+![OverviewOfFlyway_00008](https://user-images.githubusercontent.com/69948118/233830712-7d149306-d4e3-4497-9fee-81a8687acf24.jpg)
+![OverviewOfFlyway_00009](https://user-images.githubusercontent.com/69948118/233830713-74da66cf-ea77-4ff0-a3fc-a03cf233bc76.jpg)
+![OverviewOfFlyway_00010](https://user-images.githubusercontent.com/69948118/233830714-65eeef7b-6094-4fce-b95e-81af075fe4a5.jpg)
+![OverviewOfFlyway_00011](https://user-images.githubusercontent.com/69948118/233830715-74c21226-5734-4582-ad8f-f793ee3a24c1.jpg)
+![OverviewOfFlyway_00012](https://user-images.githubusercontent.com/69948118/233830716-ffcb075e-62cf-4623-87b4-0ecb6eb35357.jpg)
+![OverviewOfFlyway_00013](https://user-images.githubusercontent.com/69948118/233830717-87ee214e-506e-4c35-81b2-290721add166.jpg)
+
+## Hibernate Primary Key
+![HibernatePKOverview_00001](https://user-images.githubusercontent.com/69948118/233830795-2fa47d72-6442-47a1-b227-b5addddba515.jpg)
+![HibernatePKOverview_00002](https://user-images.githubusercontent.com/69948118/233830802-0ae04149-37fe-47c1-935e-4837913479b9.jpg)
+![HibernatePKOverview_00003](https://user-images.githubusercontent.com/69948118/233830807-09589316-b525-4206-9380-37fc08031948.jpg)
+![HibernatePKOverview_00004](https://user-images.githubusercontent.com/69948118/233830813-40a5b9cb-b81d-4271-8d5e-4c0af50ac7e4.jpg)
+![HibernatePKOverview_00005](https://user-images.githubusercontent.com/69948118/233830820-be1017ec-5220-454e-a549-eada3be516ea.jpg)
+![HibernatePKOverview_00006](https://user-images.githubusercontent.com/69948118/233830832-932c9d7b-2fab-42be-8078-130de8a9a707.jpg)
+![HibernatePKOverview_00007](https://user-images.githubusercontent.com/69948118/233830834-387b86ce-2ebc-41b5-aee5-78e9002a8fa1.jpg)
+
+
+## DAO Pattern with JDBC
+- https://docs.spring.io/spring-framework/docs/2.0.x/reference/jdbc.html
+
+## Spring JDBC Template
+![JavaDAOPattern_00001](https://user-images.githubusercontent.com/69948118/233830924-c036e412-6d8c-413d-982e-1b4543aa43f6.jpg)
+![JavaDAOPattern_00002](https://user-images.githubusercontent.com/69948118/233830928-7bebab9c-bd02-4612-82c6-2aabd00ae56c.jpg)
+![JavaDAOPattern_00003](https://user-images.githubusercontent.com/69948118/233830931-447a5932-d85b-4922-b0a7-4bf3371bcb28.jpg)
+![JavaDAOPattern_00004](https://user-images.githubusercontent.com/69948118/233830933-efe9c684-16aa-4677-ba54-062c3a578f35.jpg)
+![JavaDAOPattern_00005](https://user-images.githubusercontent.com/69948118/233830935-2abc7aec-3087-433d-b2e0-3ce6b4c6cd54.jpg)
+![JavaDAOPattern_00006](https://user-images.githubusercontent.com/69948118/233830936-5e81671d-934f-4689-83ee-cd4bfaa05346.jpg)
+
+## HIbernate DAO
+![HibernateIntroduction_00001](https://user-images.githubusercontent.com/69948118/233830997-c88ab442-ca08-4933-8165-bcb48d48e7fc.jpg)
+![HibernateIntroduction_00002](https://user-images.githubusercontent.com/69948118/233830999-b94e8f52-62e7-4149-8b29-04bde7d76803.jpg)
+![HibernateIntroduction_00003](https://user-images.githubusercontent.com/69948118/233831000-4dc10f16-4305-413d-95c2-ccd33547d109.jpg)
+![HibernateIntroduction_00004](https://user-images.githubusercontent.com/69948118/233831001-8e621998-0815-4516-af67-30b6a0ebc411.jpg)
+![HibernateIntroduction_00005](https://user-images.githubusercontent.com/69948118/233831002-74ee7f84-e5ab-4cfe-8cc8-4a437b947f66.jpg)
+![HibernateIntroduction_00006](https://user-images.githubusercontent.com/69948118/233831004-959aec94-a1f3-4f4e-895c-102c6dddfc70.jpg)
+![HibernateIntroduction_00007](https://user-images.githubusercontent.com/69948118/233831005-c1efe493-bfa3-47d5-8df4-f3ef101e6616.jpg)
+![HibernateIntroduction_00008](https://user-images.githubusercontent.com/69948118/233831006-cd0ac45b-5772-4ced-af53-39962d6acd1c.jpg)
+![HibernateIntroduction_00009](https://user-images.githubusercontent.com/69948118/233831007-f9b478c0-0ad5-428f-9624-73d49f2c89b6.jpg)
+
+## Hibernate Queries
