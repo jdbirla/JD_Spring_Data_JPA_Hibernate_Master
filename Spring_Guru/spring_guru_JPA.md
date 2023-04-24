@@ -156,3 +156,19 @@
 ![HibernateIntroduction_00009](https://user-images.githubusercontent.com/69948118/233831007-f9b478c0-0ad5-428f-9624-73d49f2c89b6.jpg)
 
 ## Hibernate Queries
+
+## Spring Data Jpa Queries
+- https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.query-methods.query-creation
+- https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.nullability
+
+## Paging and sorting with JDBC Template , Hibernate and Spring Data Jpa
+![PagingAndSorting_00001](https://user-images.githubusercontent.com/69948118/233901638-449745f6-3f33-4656-b402-b1c7c1a4ed77.jpg)
+![PagingAndSorting_00002](https://user-images.githubusercontent.com/69948118/233901646-6edd7408-ac87-4daf-a633-ae851b98421c.jpg)
+![PagingAndSorting_00003](https://user-images.githubusercontent.com/69948118/233901649-46f14218-b755-4ee6-ab5a-cca9c6abb381.jpg)
+![PagingAndSorting_00004](https://user-images.githubusercontent.com/69948118/233901652-d6040615-9716-4f37-83f2-c0104beaed2c.jpg)
+![PagingAndSorting_00005](https://user-images.githubusercontent.com/69948118/233901658-7919f6b9-8d06-4472-a742-8f9dc5759af4.jpg)
+
+## Hibernate Java Mappings
+
+
+
