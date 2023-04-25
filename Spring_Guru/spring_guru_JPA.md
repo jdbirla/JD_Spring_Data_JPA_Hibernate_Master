@@ -169,6 +169,45 @@
 ![PagingAndSorting_00005](https://user-images.githubusercontent.com/69948118/233901658-7919f6b9-8d06-4472-a742-8f9dc5759af4.jpg)
 
 ## Hibernate Java Mappings
+![JPAInheritence_00001](https://user-images.githubusercontent.com/69948118/234165598-c25d6ded-640b-479b-a447-27d09f37c26e.jpg)
+![JPAInheritence_00002](https://user-images.githubusercontent.com/69948118/234165605-56708861-0f70-4aa6-961c-1a21a492ea5d.jpg)
+![JPAInheritence_00003](https://user-images.githubusercontent.com/69948118/234165608-c40af218-d9ad-4428-9a1a-aeef63954b3f.jpg)
+![JPAInheritence_00004](https://user-images.githubusercontent.com/69948118/234165609-49e1b9a3-d13d-4f15-aee1-254266bd2fe5.jpg)
+![JPAInheritence_00005](https://user-images.githubusercontent.com/69948118/234165613-cd187d70-c96c-4f5b-8715-0efa8602f75d.jpg)
+![JPAInheritence_00006](https://user-images.githubusercontent.com/69948118/234165614-694cf3cf-877d-48aa-80e5-529010821edd.jpg)
+![JPAInheritence_00007](https://user-images.githubusercontent.com/69948118/234165618-ec9fc77e-3cfc-43f8-b6b4-786c8b9ba8ef.jpg)
+![JPAInheritence_00008](https://user-images.githubusercontent.com/69948118/234165622-01cf373f-43e0-4976-b9b2-973bad220971.jpg)
+![JPAInheritence_00009](https://user-images.githubusercontent.com/69948118/234165625-0f1cb6f3-2976-466c-98e1-231a1ed01e73.jpg)
+![JPAInheritence_00010](https://user-images.githubusercontent.com/69948118/234165628-c1ed2b67-bdc7-42aa-bda2-59500d058fb6.jpg)
+![JPAInheritence_00011](https://user-images.githubusercontent.com/69948118/234165630-28114816-49fe-4150-9154-65fb6ee815e6.jpg)
+![JPAInheritence_00012](https://user-images.githubusercontent.com/69948118/234165633-d5aca178-7154-4e00-b875-5c615d5d2cb8.jpg)
+![JPAInheritence_00013](https://user-images.githubusercontent.com/69948118/234165636-23cf6a7d-9365-44f4-a14e-19e98732777a.jpg)
+![JPAInheritence_00014](https://user-images.githubusercontent.com/69948118/234165641-f02955e9-c2c0-4b1e-b035-472ac934dbbf.jpg)
+![JPAInheritence_00015](https://user-images.githubusercontent.com/69948118/234165642-2cf5c3c4-d159-4a49-80d6-5728af82bb81.jpg)
+![JPAInheritence_00016](https://user-images.githubusercontent.com/69948118/234165644-9c87c532-77dc-436c-8b93-ae1c5b3dccbb.jpg)
+![JPAInheritence_00017](https://user-images.githubusercontent.com/69948118/234165646-f750a769-4821-480e-9983-40d2e8747e69.jpg)
+![JPAInheritence_00018](https://user-images.githubusercontent.com/69948118/234165649-43fdee41-c821-4bcf-8bf7-a29a1faf3d81.jpg)
+![JPAInheritence_00019](https://user-images.githubusercontent.com/69948118/234165652-23cbb625-eb92-4737-90b7-44edc797df64.jpg)
 
 
+## DataBase Relationship Mappings
+
+![OverviewOfDBRelationships_00001](https://user-images.githubusercontent.com/69948118/234165691-f00ea021-d837-43e5-8175-c86db5cdeb4b.jpg)
+![OverviewOfDBRelationships_00002](https://user-images.githubusercontent.com/69948118/234165693-54475726-a29e-41b6-b8eb-e7400df531d5.jpg)
+![OverviewOfDBRelationships_00003](https://user-images.githubusercontent.com/69948118/234165695-cd4c76cf-fea8-4760-a492-f9a1c1d7d54c.jpg)
+![OverviewOfDBRelationships_00004](https://user-images.githubusercontent.com/69948118/234165697-632cf63c-be83-4470-a698-c696db24ddf9.jpg)
+![OverviewOfDBRelationships_00005](https://user-images.githubusercontent.com/69948118/234165700-9769427b-4795-43ef-aed6-3a17a5b12baa.jpg)
+![OverviewOfDBRelationships_00006](https://user-images.githubusercontent.com/69948118/234165703-26f2fa05-806d-48d4-995a-85a3d28a1deb.jpg)
+![OverviewOfDBRelationships_00007](https://user-images.githubusercontent.com/69948118/234165707-34b83333-7156-4b27-b35b-82a72df9ff11.jpg)
+![OverviewOfDBRelationships_00008](https://user-images.githubusercontent.com/69948118/234165710-d0aa42c9-d424-46bf-b67f-a4f33744e838.jpg)
+![OverviewOfDBRelationships_00009](https://user-images.githubusercontent.com/69948118/234165712-f82f165c-30b5-46f5-8729-82958bb1e148.jpg)
+![OverviewOfDBRelationships_00010](https://user-images.githubusercontent.com/69948118/234165715-a0f606ee-b237-4a83-9a44-7393a9a5e975.jpg)
+![OverviewOfDBRelationships_00011](https://user-images.githubusercontent.com/69948118/234165717-5c54c9d6-cff3-4138-896d-cae0bc129e6a.jpg)
+
+![HibernateCascadeTypes_00001](https://user-images.githubusercontent.com/69948118/234165738-b38d57d4-8495-4c49-bf59-de2c6895731f.jpg)
+![HibernateCascadeTypes_00002](https://user-images.githubusercontent.com/69948118/234165745-0563c6c1-bff0-456f-8254-4988896a6501.jpg)
+![HibernateCascadeTypes_00003](https://user-images.githubusercontent.com/69948118/234165754-93a07005-1b35-4373-a421-2ec408e41e6e.jpg)
+
+
+## Fetch Operations
 
