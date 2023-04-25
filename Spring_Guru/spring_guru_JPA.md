@@ -211,3 +211,78 @@
 
 ## Fetch Operations
 
+## DataBase Transactions and Locking
+
+![OverviewOfDBTransactions_00001](https://user-images.githubusercontent.com/69948118/234262737-20105130-d642-47d5-a64e-c94c2d42ed0d.jpg)
+![OverviewOfDBTransactions_00002](https://user-images.githubusercontent.com/69948118/234262747-af7a3c0c-21f8-475a-ab80-2d816d7cd246.jpg)
+![OverviewOfDBTransactions_00003](https://user-images.githubusercontent.com/69948118/234262750-0dfaebc9-3521-4a46-882d-af1a30ab808c.jpg)
+![OverviewOfDBTransactions_00004](https://user-images.githubusercontent.com/69948118/234262753-5fedebd7-86c9-4c65-b27a-409caced84b5.jpg)
+![OverviewOfDBTransactions_00005](https://user-images.githubusercontent.com/69948118/234262757-6a7ffae8-f59f-4b59-9fd0-56f5ac266c75.jpg)
+![OverviewOfDBTransactions_00006](https://user-images.githubusercontent.com/69948118/234262760-93f74b49-f259-4def-a0d1-1e4d930c44b6.jpg)
+![OverviewOfDBTransactions_00007](https://user-images.githubusercontent.com/69948118/234262763-48b9aca4-01ff-4366-b7b6-2a789f4c21d9.jpg)
+![OverviewOfDBTransactions_00008](https://user-images.githubusercontent.com/69948118/234262765-0dd185c9-b340-484a-8c4f-ac82da99b641.jpg)
+![OverviewOfDBTransactions_00009](https://user-images.githubusercontent.com/69948118/234262766-19879078-3171-4253-b73a-98d40ea95625.jpg)
+![OverviewOfDBTransactions_00010](https://user-images.githubusercontent.com/69948118/234262769-aa5d0fc5-995b-4849-95f2-b65b7623efef.jpg)
+![OverviewOfDBTransactions_00011](https://user-images.githubusercontent.com/69948118/234262772-364eb5d9-7742-45d2-a465-880abd180aad.jpg)
+![OverviewOfDBTransactions_00012](https://user-images.githubusercontent.com/69948118/234262778-51a2bd27-cf35-40a3-b825-300eaf1fb89b.jpg)
+![OverviewOfDBTransactions_00013](https://user-images.githubusercontent.com/69948118/234262780-758a7597-1957-459a-8364-8067e12e6679.jpg)
+![OverviewOfDBTransactions_00014](https://user-images.githubusercontent.com/69948118/234262783-dac0e7fa-e5e3-4725-bf79-af9fd7938b20.jpg)
+![SpringDataJPATransactions_00001](https://user-images.githubusercontent.com/69948118/234262828-47c895e6-1e33-4924-acf1-a97f2174b328.jpg)
+![SpringDataJPATransactions_00002](https://user-images.githubusercontent.com/69948118/234262836-7b13672f-f11a-4009-be8e-fe48efed45c4.jpg)
+![SpringDataJPATransactions_00003](https://user-images.githubusercontent.com/69948118/234262840-4e9db4fc-98a8-4257-89f8-b37618eefd5a.jpg)
+![SpringDataJPATransactions_00004](https://user-images.githubusercontent.com/69948118/234262843-6321eca3-d790-4b79-ae29-5470d841e737.jpg)
+![SpringDataJPATransactions_00005](https://user-images.githubusercontent.com/69948118/234262845-6b29d9bf-7fde-4c48-be0b-5dc3c1ec2d48.jpg)
+![SpringDataJPATransactions_00006](https://user-images.githubusercontent.com/69948118/234262850-734ed893-5845-4230-a592-67bad419c837.jpg)
+![SpringDataJPATransactions_00007](https://user-images.githubusercontent.com/69948118/234262853-4a0cd9af-626f-4e29-a033-2ffdee329a2e.jpg)
+![SpringDataJPATransactions_00008](https://user-images.githubusercontent.com/69948118/234262856-8a530c26-52f7-412a-961d-2a1be063b8ed.jpg)
+![SpringDataJPATransactions_00009](https://user-images.githubusercontent.com/69948118/234262858-6e01c34d-60a0-4423-a994-4076e142cf36.jpg)
+![SpringDataJPATransactions_00010](https://user-images.githubusercontent.com/69948118/234262860-54321c54-d2cd-44ad-8f97-05f56f63a875.jpg)
+![SpringDataJPATransactions_00011](https://user-images.githubusercontent.com/69948118/234262867-c5c77391-ca96-4edd-bde2-2ef593cd1d62.jpg)
+![SpringDataJPATransactions_00012](https://user-images.githubusercontent.com/69948118/234262870-977e1f89-6d36-46e4-a5a1-72094803a61f.jpg)
+![SpringDataJPATransactions_00013](https://user-images.githubusercontent.com/69948118/234262872-285053ae-a8e1-4ac5-a45b-a26949744a02.jpg)
+![SpringDataJPATransactions_00014](https://user-images.githubusercontent.com/69948118/234262875-4e1858b8-7a48-4f8a-9840-aa3021e605dd.jpg)
+![SpringDataJPATransactions_00015](https://user-images.githubusercontent.com/69948118/234262878-81f46e0c-11bf-4285-9411-c812496ea4c3.jpg)
+![SpringDataJPATransactions_00016](https://user-images.githubusercontent.com/69948118/234262880-88ca2aa8-46fa-4c4b-88dc-656d10569d10.jpg)
+![SpringDataJPATransactions_00017](https://user-images.githubusercontent.com/69948118/234262884-7b446ddf-346e-4c6b-bd73-cb9b2d406bf5.jpg)
+![SpringDataJPATransactions_00018](https://user-images.githubusercontent.com/69948118/234262886-4b40e1c1-1672-4dd5-a190-171bc851c1b8.jpg)
+
+
+## Validation
+![JavaBeanValidation_00001](https://user-images.githubusercontent.com/69948118/234263032-2cf37333-e92c-47fc-a2db-e09ecea23fec.jpg)
+![JavaBeanValidation_00002](https://user-images.githubusercontent.com/69948118/234263040-85ee0d64-71c0-41cf-9238-55a27f22233d.jpg)
+![JavaBeanValidation_00003](https://user-images.githubusercontent.com/69948118/234263044-4b01b700-4581-4ecd-ba0b-a202f843aaae.jpg)
+![JavaBeanValidation_00004](https://user-images.githubusercontent.com/69948118/234263046-04d84dad-9f0f-45f0-bf97-99418ec43661.jpg)
+![JavaBeanValidation_00005](https://user-images.githubusercontent.com/69948118/234263048-6755bd51-20d6-4ec7-9cc0-0b58c9953228.jpg)
+![JavaBeanValidation_00006](https://user-images.githubusercontent.com/69948118/234263054-41a8d915-f86a-48ae-a657-f72d7b5df277.jpg)
+![JavaBeanValidation_00007](https://user-images.githubusercontent.com/69948118/234263057-47d7839f-7a90-42cf-9a86-2b4ff75fa10e.jpg)
+![JavaBeanValidation_00008](https://user-images.githubusercontent.com/69948118/234263059-c6096b91-65be-4526-84d9-f16410cb0c0c.jpg)
+![JavaBeanValidation_00009](https://user-images.githubusercontent.com/69948118/234263060-7e86ca83-acc7-4df9-a15b-6c9160205cc7.jpg)
+![JavaBeanValidation_00010](https://user-images.githubusercontent.com/69948118/234263062-8ce0abf7-4630-4745-8a8b-3362cc5c08c8.jpg)
+![JavaBeanValidation_00011](https://user-images.githubusercontent.com/69948118/234263070-dedb144d-e2b1-4875-b864-59293b6695c3.jpg)
+![JavaBeanValidation_00012](https://user-images.githubusercontent.com/69948118/234263076-bcb4ba53-2f8d-4fc0-a2cc-238931829782.jpg)
+![JavaBeanValidation_00013](https://user-images.githubusercontent.com/69948118/234263080-515e5a6f-adf1-43c1-b958-cbc2525769e0.jpg)
+![JavaBeanValidation_00014](https://user-images.githubusercontent.com/69948118/234263083-60f53362-777d-4606-aa66-71b88caf7784.jpg)
+![JavaBeanValidation_00015](https://user-images.githubusercontent.com/69948118/234263091-61308afa-8b71-46d3-81c3-15f57681b1dc.jpg)
+
+![WhenAndWhereToVlidate_00001](https://user-images.githubusercontent.com/69948118/234263118-b953ab83-af60-4671-93fc-fdb3103b6186.jpg)
+![WhenAndWhereToVlidate_00002](https://user-images.githubusercontent.com/69948118/234263119-e4f92b35-378f-404b-932a-35d5474aeb93.jpg)
+![WhenAndWhereToVlidate_00003](https://user-images.githubusercontent.com/69948118/234263123-06ea8da6-6ff5-454b-a85f-f35606a5f563.jpg)
+
+
+## Inheritance
+
+![InheritanceOverview_00001](https://user-images.githubusercontent.com/69948118/234263569-b8ed343e-b8d0-4335-b19a-a149026885ad.jpg)
+![InheritanceOverview_00002](https://user-images.githubusercontent.com/69948118/234263580-f86f1b91-923b-48da-822d-f5dd72a9a98a.jpg)
+![InheritanceOverview_00003](https://user-images.githubusercontent.com/69948118/234263584-e8040131-4ced-47a4-afb8-724c52a09416.jpg)
+![InheritanceOverview_00004](https://user-images.githubusercontent.com/69948118/234263590-8a1df3fc-3784-4b0a-b60c-2f05af3b5331.jpg)
+
+
+## Legacy DB Mapping
+
+![LegacyDBOverview_00001](https://user-images.githubusercontent.com/69948118/234263964-db5454a0-9cc0-43e7-8d3e-37fdcb2fc311.jpg)
+![LegacyDBOverview_00002](https://user-images.githubusercontent.com/69948118/234263975-8c493918-4914-409f-b31b-72436361a132.jpg)
+![LegacyDBOverview_00003](https://user-images.githubusercontent.com/69948118/234263979-ed48d8aa-1564-4822-ad51-1929d8b85f34.jpg)
+
+
+## Hibernate Interceptors
+
