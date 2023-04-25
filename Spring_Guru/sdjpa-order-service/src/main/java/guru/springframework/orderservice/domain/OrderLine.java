@@ -3,6 +3,7 @@ package guru.springframework.orderservice.domain;
 import jakarta.persistence.Entity;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.Version;
 
 /**
  * Created by jd birla on 24-04-2023 at 15:12
@@ -15,6 +16,9 @@ public class OrderLine extends BaseEntity{
 
   @ManyToOne
   private Product product;
+
+    @Version
+    private Integer version;
 
     public Integer getQuantityOrdered() {
         return quantityOrdered;
@@ -38,6 +42,14 @@ public class OrderLine extends BaseEntity{
 
     public void setProduct(Product product) {
         this.product = product;
+    }
+
+    public Integer getVersion() {
+        return version;
+    }
+
+    public void setVersion(Integer version) {
+        this.version = version;
     }
 
     @Override

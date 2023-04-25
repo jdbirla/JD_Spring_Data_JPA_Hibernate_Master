@@ -84,7 +84,7 @@ class OrderHeaderRepositoryTest {
     void testSaveOrder() {
         OrderHeader orderHeader = new OrderHeader();
         Customer customer = new Customer();
-        customer.setCustomerName("New Customer");
+        customer.setCustomerName("New Customer1223456789Custom");
         Customer savedCustomer = customerRepository.save(customer);
 
         orderHeader.setCustomer(savedCustomer);
