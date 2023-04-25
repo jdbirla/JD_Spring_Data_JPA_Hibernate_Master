@@ -42,6 +42,11 @@ logging.level.logger.org.hibernate.SQL_SLOW=info
 # 2nd Level Cache
 logging.level.logger.org.hibernate.cache=debug
 
+# Show transaction log of Spring data jpa and hibernate
+logging.level.ROOT=INFO 
+logging.level.org.springframework.orm.jpa=DEBUG 
+logging.level.org.springframework.transaction=DEBUG 
+logging.level.org.hibernate.engine.transaction.internal.TransactionImpl=DEBUG
 
 
 # Using this data.sql will execute after table creation
