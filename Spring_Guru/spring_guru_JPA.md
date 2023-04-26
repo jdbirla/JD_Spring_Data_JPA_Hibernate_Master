@@ -285,4 +285,21 @@
 
 
 ## Hibernate Interceptors
+![ListenersAndInterceptors_00001](https://user-images.githubusercontent.com/69948118/234521710-8713ad5e-4140-438a-b92e-d6f423d16f9b.jpg)
+![ListenersAndInterceptors_00002](https://user-images.githubusercontent.com/69948118/234521786-120d7596-3bf7-4f0a-b605-8ec6c8fdff75.jpg)
+![ListenersAndInterceptors_00003](https://user-images.githubusercontent.com/69948118/234521812-b55fd818-96df-43d8-8683-c7e81beda232.jpg)
+![ListenersAndInterceptors_00004](https://user-images.githubusercontent.com/69948118/234521829-038d0102-f6f3-422a-bd38-12c67368e98b.jpg)
+![ListenersAndInterceptors_00005](https://user-images.githubusercontent.com/69948118/234521850-827920ae-88bf-4f48-a9ae-a273119839f3.jpg)
+![ListenersAndInterceptors_00006](https://user-images.githubusercontent.com/69948118/234521883-2f82b47f-d75a-4386-8467-fac6db9f19c6.jpg)
 
+
+
+## Hibernate Listeners
+
+## JPA CallBacks
+
+## Multiple Data Sources
+- https://github.com/brettwooldridge/HikariCP
+
+
+## Spring Data Rest
