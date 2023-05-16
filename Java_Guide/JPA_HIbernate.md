@@ -4,6 +4,9 @@ This repository will contains all learnings about hibernate , JPA and Spring Dat
 ## Spring Data JPA
 ![image](https://user-images.githubusercontent.com/69948118/208003525-5c1202a4-8d56-4c72-9275-3474f7785aba.png)
 ![JPA_Hibernate_java_Guide_Notes_00001](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/1c255674-aa5b-4f12-8647-d92975e4a5cc)
+![image](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/61052a7a-1ce6-403e-a884-fa4dd5f49440)
+![image](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/2d06322a-8a03-4d80-b1a2-16e14aa855db)
+
 ![JPA_Hibernate_java_Guide_Notes_00002](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/e57f72fe-d5ab-499d-9858-1496bd3b0c4c)
 ![JPA_Hibernate_java_Guide_Notes_00003](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/50fefc72-fa43-4169-845c-f5c54153e7b3)
 ![JPA_Hibernate_java_Guide_Notes_00004](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/6edc9567-bc24-4941-be5b-c8a4f5a3472c)
