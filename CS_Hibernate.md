@@ -346,6 +346,7 @@ id="entityManagerFactory">
 
 ---
 ## Hibernate N+1 Select Problem
+- https://medium.com/geekculture/resolve-hibernate-n-1-problem-f0e049e689ab
 ![image](https://user-images.githubusercontent.com/69948118/224542712-52446229-45fe-434e-a99c-c77f6c2861b6.png)
 ![image](https://user-images.githubusercontent.com/69948118/224543098-5d025139-a5f6-4155-a196-1f3a4548bcc6.png)
 ![image](https://user-images.githubusercontent.com/69948118/224543121-5ebc6b46-92a6-4ea9-83a8-2b30dd8a3842.png)
