@@ -36,12 +36,13 @@
 #### Flyway
 
 ## Hibernate
-
----
+![image](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/da281666-6a0b-4090-9036-ff973e895b7a)
+![image](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/95926753-e23e-4d9e-ae13-c8d3fe847ee8)
+![image](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/cad44eff-1e6a-4c7c-9a84-e7f9fe48e893)
 ![image](https://user-images.githubusercontent.com/69948118/223032546-533e3aaa-b349-47a7-89f1-e783edebdd19.png)
 ![image](https://user-images.githubusercontent.com/69948118/223032562-236c9ac0-5559-4c44-93fe-0cb2d7329e41.png)
 
-## What is Session Factory?
+#### What is Session Factory?
 The package org.hibernate package provides the SessionFactory interface. It extends the Referenceable and Serializable interface and provides factory methods to get session objects. The Session Factory has the following properties
 
 - We should have one SessionFactory for one datasource / database configuration
@@ -51,7 +52,7 @@ The package org.hibernate package provides the SessionFactory interface. It exte
 - Session Factory is a Singleton object which is immutable and created at the server startup
 - Session Factory serves as the second-level cache for Hibernate
 
-## What is a Session?
+#### What is a Session?
 The Session interface provides APIs to create, read, update, and delete persistent objects. The Session object is created on demand when the application needs to interact with the database. The Session Factory provides the Session object and the important functionality of the Session is to create, read and delete operations for instances of mapped entity classes.
 
 The Sessions has one instance per client/thread/one transaction.
@@ -61,12 +62,23 @@ The Sessions has one instance per client/thread/one transaction.
 - It provides a first-level cache for Hibernate objects
 - We can have multiple sessions for a SessionFactory.
 
-### Transient
+#### Transient
 - A newly created object that has not been attached to any Session is called a Transient Object
-### Persistent
+#### Persistent
 - An Object that is associated with a session is called a Persistent Object. It represents a row in a database table.
-### Detached
+#### Detached
 - After a session is closed, the object becomes a detached one. It still represents a row in the database but it is outside the scope of the session now
+
+### Primary key
+![image](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/4704b177-e186-4a8b-ac3c-542854f39f30)
+
+### Caching
+![image](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/507617e8-1c0b-4746-8b7d-5cb5aa3d09fa)
+
+### JPA Inheritance
+![image](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/111c1bf6-a348-4d5b-af3b-aad2f6604e89)
+
+---
 
 ### 5 important and similar methods of Session Interface
 ### Persist
