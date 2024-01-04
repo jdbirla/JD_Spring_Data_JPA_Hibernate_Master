@@ -427,7 +427,8 @@ public interface BlogRepository extends JpaRepository<Blog,Integer> {
 }
 ```
 
-
+## Hibernate Annotatoin
+- https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/blob/master/Hibernare_annotation.pdf
 
 
 
