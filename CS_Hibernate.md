@@ -6,7 +6,7 @@
   - [Relation db,sql,jdbc,hibernate,springdatajpa](#relation-dbsqljdbchibernatespringdatajpa)
   - [When to use spring data JPA and when not](#when-to-use-spring-data-jpa-and-when-not)
   - [RDBMS](#rdbms)
-    - https://github.com/jdbirla/JD_IMP_SQL/blob/master/Jd_Interview_Guide.md
+    - [SQL_interview_guide] https://github.com/jdbirla/JD_IMP_SQL/blob/master/Jd_Interview_Guide.md
     - [Keys](#keys)
     - [Relationship](#relationship)
     - [ACID](#acid)
