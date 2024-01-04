@@ -7,6 +7,26 @@
 ![image](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/4f3e5f30-52b8-47e7-a956-8ce27ad455de)
 ![image](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/4910ca82-edf4-442c-83d9-ef3b6bc31f0a)
 
+## RDBMS
+### Keys
+#### Primary key
+- A Primary key is an optional special database column or columns used o identify a database record
+- it should be only one
+- It can ONLY accept;
+    - nonduplicate values
+    - cannot be NULL
+-  primary keys are system-generated and have no inherent meaning to users. They exist purely for the purpose of database management.
+#### Surrogate key
+![image](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/92689c0b-49fe-4840-8093-264c85d78666)
+#### Natural Key or Commposite key
+![image](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/ec9e09c8-7562-47d0-9ae3-d6e4c6d82c2f)
+
+#### Foreign Key: 
+- It is a column that comes from a different table and
+- using Foreign key tables are related each other
+- It is the primary key of another table
+- It can be duplicate or null for another table
+
 ---
 ![image](https://user-images.githubusercontent.com/69948118/223032546-533e3aaa-b349-47a7-89f1-e783edebdd19.png)
 ![image](https://user-images.githubusercontent.com/69948118/223032562-236c9ac0-5559-4c44-93fe-0cb2d7329e41.png)
