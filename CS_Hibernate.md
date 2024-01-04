@@ -1,5 +1,35 @@
 # Spring Data JPA, Hibernate CS
 
+# Table of contents
+
+- [Spring Data JPA, Hibernate CS](#spring-data-jpa-hibernate-cs)
+  - [Relation db,sql,jdbc,hibernate,springdatajpa](#relation-dbsqljdbchibernatespringdatajpa)
+  - [When to use spring data JPA and when not](#when-to-use-spring-data-jpa-and-when-not)
+  - [RDBMS](#rdbms)
+    - [Keys](#keys)
+    - [Relationship](#relationship)
+    - [ACID](#acid)
+    - [Locks](#locks)
+    - [DB Migration Tools](#db-migration-tools)
+  - [Hibernate](#hibernate)
+    - [Primary key](#primary-key)
+    - [Annotations](#annotations)
+    - [5 important and similar methods of Session Interface](#5-important-and-similar-methods-of-session-interface)
+    - [Caching](#caching)
+    - [JPA Inheritance](#jpa-inheritance)
+  - [Transactions](#transactions)
+  - [MySQL Stored Procedures with Spring Boot](#mysql-stored-procedures-with-spring-boot)
+  - [Configuration](#configuration)
+    - [JDBC](#jdbc)
+    - [Spring JDBC](#spring-jdbc)
+    - [JPA](#jpa)
+  - [Hibernate](#hibernate)
+    - [Spring data JPA](#spring-data-jpa)
+    - [JPA VS Hibernate](#jpa-vs-hibernate)
+  - [Hibernate N+1 Select Problem](#hibernate-n1-select-problem)
+  - [Interview Q&A](#interview-qa)
+    - [Spring Boot connection with Hibernate using MySQL](#spring-boot-connection-with-hibernate-using-mysql)
+    - 
 ## Relation db,sql,jdbc,hibernate,springdatajpa
 ![image](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/206d4059-4357-42e3-98e4-1bf74f3d24da)
 
