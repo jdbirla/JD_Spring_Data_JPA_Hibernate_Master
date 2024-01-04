@@ -32,6 +32,9 @@
 ### ACID
 ![image](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/def68086-4626-406f-8cf3-4159efd75ec3)
 
+### Locks
+![image](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/d1c55c4e-d17a-4e1d-a0d3-fc145641f94e)
+
 ### DB Migration Tools
 #### Flyway
 
@@ -77,6 +80,11 @@ The Sessions has one instance per client/thread/one transaction.
 
 ### JPA Inheritance
 ![image](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/111c1bf6-a348-4d5b-af3b-aad2f6604e89)
+
+
+## Transactions
+![image](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/1d08325b-16e1-466f-9f8a-ebfb2ddb91c0)
+![image](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/f9c81bbb-0d13-4669-a5fe-1f8d37dc3197)
 
 ---
 
