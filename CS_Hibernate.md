@@ -394,7 +394,38 @@ id="entityManagerFactory">
 ![image](https://user-images.githubusercontent.com/69948118/179115952-29008fb7-1677-49ca-8864-af94a2f5f375.png)
 ![image](https://user-images.githubusercontent.com/69948118/179116154-03c7ae17-9106-4185-9bc9-39b33a551d6c.png)
 
+## MySQL Stored Procedures with Spring Boot
+- Approach 1 – @NamedStoredProcedureQuery Annotation
+- Approach-2 @Procedure Annotation
+```plsql
+CREATE PROCEDURE 'GET_TOTAL_BLOGS_BY_TITLE' (IN title_in VARCHAR(50), OUT count_out INT)
+BEGIN
+ SELECT COUNT(*) into count_out from blog WHERE title = title_in;
+END
+```
+```java
+@Repository
+public interface BlogRepository extends JpaRepository<Blog,Integer> {
 
+    @Procedure
+    int GET_TOTAL_BLOGS_BY_TITLE(String title);
+
+    @Procedure("GET_TOTAL_BLOGS_BY_TITLE")
+    int getTotalBlogsByTitle(String title);
+
+    @Procedure(procedureName = "GET_TOTAL_BLOGS_BY_TITLE")
+    int getTotalBlogsByTitleProcedureName(String model);
+
+    @Procedure(value = "GET_TOTAL_BLOGS_BY_TITLE")
+    int getTotalBlogsByTitleValue(String model);
+
+    @Procedure(name = "Blog.getTotalBlogsByTitleEntiy")
+    int getTotalBlogsByTitleEntiy(@Param("model_in") String model);
+
+
+
+}
+```
 
 
 
