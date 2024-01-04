@@ -3,6 +3,10 @@
 ## Relation db,sql,jdbc,hibernate,springdatajpa
 ![image](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/206d4059-4357-42e3-98e4-1bf74f3d24da)
 
+## When to use spring data JPA and when not
+![image](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/4f3e5f30-52b8-47e7-a956-8ce27ad455de)
+![image](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/4910ca82-edf4-442c-83d9-ef3b6bc31f0a)
+
 ---
 ![image](https://user-images.githubusercontent.com/69948118/223032546-533e3aaa-b349-47a7-89f1-e783edebdd19.png)
 ![image](https://user-images.githubusercontent.com/69948118/223032562-236c9ac0-5559-4c44-93fe-0cb2d7329e41.png)
