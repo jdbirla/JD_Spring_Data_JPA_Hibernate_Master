@@ -26,7 +26,10 @@
 - using Foreign key tables are related each other
 - It is the primary key of another table
 - It can be duplicate or null for another table
+### Relationship
+![image](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/d92c15ce-8334-4727-aa1b-1805c3fc67be)
 
+### ACID
 ---
 ![image](https://user-images.githubusercontent.com/69948118/223032546-533e3aaa-b349-47a7-89f1-e783edebdd19.png)
 ![image](https://user-images.githubusercontent.com/69948118/223032562-236c9ac0-5559-4c44-93fe-0cb2d7329e41.png)
