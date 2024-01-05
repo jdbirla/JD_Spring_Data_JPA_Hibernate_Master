@@ -428,6 +428,7 @@ In this code snippet:
 - When the transaction is committed, Hibernate automatically detects that the `salary` property has been modified (it's "dirty") and generates an SQL UPDATE statement to persist only that change to the database.
 
 This is the essence of dirty checking in Hibernate – it simplifies the process of persisting changes to the database by automatically identifying and updating only the modified properties of entities during a transaction commit.
+
 ---
 ## Hibernate N+1 Select Problem
 - https://medium.com/geekculture/resolve-hibernate-n-1-problem-f0e049e689ab
