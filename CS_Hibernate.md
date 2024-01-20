@@ -34,6 +34,8 @@
     - [12. **close:**](#12-close)
     - [13. **remove:**](#13-remove)
     - [13. **persist, save, and saveOrUpdate**](#13-persist-save-and-saveorupdate)
+    - [14. ** get, load, and find **](#14--get-load-and-find-)
+    - [15. **merge and update**](#15-merge-and-update)
     - [Keys](#keys)
     - [Primary key](#primary-key)
     - [Annotations](#annotations)
@@ -60,6 +62,7 @@
   - [Hibernate N+1 Select Problem](#hibernate-n1-select-problem)
   - [Interview Q&A](#interview-qa)
     - [Spring Boot connection with Hibernate using MySQL](#spring-boot-connection-with-hibernate-using-mysql)
+    - 
 ## Relation db,sql,jdbc,hibernate,springdatajpa
 ![image](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/206d4059-4357-42e3-98e4-1bf74f3d24da)
 
@@ -312,7 +315,50 @@ Certainly, let's summarize the differences between `persist`, `save`, and `saveO
 - persist(): Use when you're certain you're saving a new entity and don't need the generated ID immediately.
 - save(): Use when you need the generated ID immediately after saving a new entity.
 - saveOrUpdate(): Use when you're unsure whether an entity is new or existing, and you want to handle both cases in a single method call.
+### 14. ** get, load, and find **
 
+| Parameter                 | `get` (Hibernate)                            | `load` (Hibernate)                           | `find` (JPA)                                 |
+|---------------------------|----------------------------------------------|---------------------------------------------|---------------------------------------------|
+| **JPA or Hibernate**      | Hibernate                                  | Hibernate                                   | JPA                                         |
+| **Use**                   | Retrieve an entity by its identifier          | Retrieve an entity by its identifier         | Retrieve an entity by its primary key       |
+| **Code Example**          | ```EntityClass entity = (EntityClass) session.get(EntityClass.class, entityId);``` | ```EntityClass entity = (EntityClass) session.load(EntityClass.class, entityId);``` | ```EntityClass entity = entityManager.find(EntityClass.class, entityId);``` |
+| **Proxy Object**          | Returns the actual object                     | Returns a proxy object (placeholder)        | Returns the actual object                   |
+| **Lazy Loading**          | Does not enable lazy loading by default       | Enables lazy loading by default             | Lazy loading behavior is provider-specific  |
+| **Exception Handling**    | Returns `null` if the entity is not found     | Throws `ObjectNotFoundException` if not found | Returns `null` if the entity is not found   |
+| **When to Use**           | When you want to access the entity immediately | When you may not need the entity immediately | When you want to access the entity immediately |
+| **Primary Key Required**  | Yes                                          | Yes                                         | Yes                                         |
+
+**When to Use:**
+- Use `get` in Hibernate when you want to retrieve an entity by its identifier and you need the actual object immediately. It is eager in loading the entity.
+- Use `load` in Hibernate when you may not need the entity immediately and are okay with a proxy. It is useful for lazy loading of associations.
+- Use `find` in JPA when you want to retrieve an entity by its primary key. It provides a standard way to retrieve entities in the JPA specification.
+
+### 15. **merge and update**
+Certainly, let's summarize the differences between `merge` and `update` in a table format:
+
+| Parameter               | `merge` (JPA)                                          | `update` (Hibernate)                                   |
+|-------------------------|--------------------------------------------------------|--------------------------------------------------------|
+| **JPA or Hibernate**    | JPA                                                    | Hibernate                                              |
+| **Use**                 | Merges the state of a detached entity into the context | Reattaches a detached object to the session and syncs it with the database |
+| **Code Example**        | ```entityManager.merge(entity);```                     | ```session.update(entity);```                           |
+| **Returns**             | Returns a reference to the managed instance             | Void                                                   |
+| **Entity Existence**    | Can be used for both new and existing entities         | Primarily for updating existing entities               |
+| **Primary Key Required**| No                                                     | Yes                                                    |
+| **Managed Entity**      | Returns a managed entity even if the parameter is detached | Throws an exception if the parameter is not in the session |
+| **When to Use**         | - When dealing with detached entities                  | - Primarily for updating existing entities             |
+| **Merging Strategy**     | Merges the state of the detached entity, and if the entity doesn't exist in the context, a new managed instance is created | Updates the state of the object and assumes it is already in the session |
+| **Cascade**             | Works well with relationships and cascade operations    | Cascade options may need to be set explicitly for associations to be updated |
+| **Concurrency**         | Handles optimistic concurrency control by merging changes | Does not inherently handle optimistic concurrency control |
+
+**When to Use:**
+- Use `merge` in JPA when dealing with detached entities that need to be reattached to the persistence context. It is suitable for scenarios where the entity might have been modified outside the current persistence context.
+- Use `update` in Hibernate when you are updating an existing entity that is already associated with the current session. It assumes that the entity is already in the session and makes the changes persistent.
+
+**Important Notes:**
+- `merge` is specific to JPA, while `update` is specific to Hibernate.
+- `merge` is often used in a broader set of scenarios, including reattaching detached entities and handling changes made outside the current context.
+- `update` is more specific to updating existing entities within the same session in Hibernate.
+- Always consider the specific requirements and behavior of your application when choosing between these methods.
 ### Keys
 ### Primary key
 ![image](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/4704b177-e186-4a8b-ac3c-542854f39f30)
