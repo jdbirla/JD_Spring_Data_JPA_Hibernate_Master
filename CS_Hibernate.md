@@ -76,7 +76,7 @@
 ![image](https://user-images.githubusercontent.com/69948118/223032546-533e3aaa-b349-47a7-89f1-e783edebdd19.png)
 ![image](https://user-images.githubusercontent.com/69948118/223032562-236c9ac0-5559-4c44-93fe-0cb2d7329e41.png)
 
-#### What is Session Factory?
+### What is Session Factory?
 The package org.hibernate package provides the SessionFactory interface. It extends the Referenceable and Serializable interface and provides factory methods to get session objects. The Session Factory has the following properties
 
 - We should have one SessionFactory for one datasource / database configuration
@@ -86,7 +86,7 @@ The package org.hibernate package provides the SessionFactory interface. It exte
 - Session Factory is a Singleton object which is immutable and created at the server startup
 - Session Factory serves as the second-level cache for Hibernate
 
-#### What is a Session?
+### What is a Session?
 The Session interface provides APIs to create, read, update, and delete persistent objects. The Session object is created on demand when the application needs to interact with the database. The Session Factory provides the Session object and the important functionality of the Session is to create, read and delete operations for instances of mapped entity classes.
 
 The Sessions has one instance per client/thread/one transaction.
@@ -96,13 +96,204 @@ The Sessions has one instance per client/thread/one transaction.
 - It provides a first-level cache for Hibernate objects
 - We can have multiple sessions for a SessionFactory.
 
-#### Transient
-- A newly created object that has not been attached to any Session is called a Transient Object
-#### Persistent
-- An Object that is associated with a session is called a Persistent Object. It represents a row in a database table.
-#### Detached
-- After a session is closed, the object becomes a detached one. It still represents a row in the database but it is outside the scope of the session now
+### Methods
 
+### 1. **save:**
+   - **JPA or Hibernate:** Hibernate
+   - **Use:** This method is used to save an entity to the database. If the identifier (primary key) is not set in the entity, it will insert a new record; otherwise, it will update the existing record.
+   - **Code:**
+     ```java
+     Session session = sessionFactory.openSession();
+     Transaction transaction = session.beginTransaction();
+     session.save(entity);
+     transaction.commit();
+     session.close();
+     ```
+   - **Alternate:** In JPA, you can use `EntityManager.persist(entity)` which also adds an entity to the persistence context, but it does not guarantee an immediate execution of the SQL insert.
+   - **Difference:** save() can return the generated ID, while persist() doesn't.
+### 2. **persist:**
+   - **JPA or Hibernate:** JPA
+   - **Use:** This method is used to make an entity instance managed and persistent.
+   - **Code:**
+     ```java
+     EntityManager entityManager = entityManagerFactory.createEntityManager();
+     entityManager.getTransaction().begin();
+     entityManager.persist(entity);
+     entityManager.getTransaction().commit();
+     entityManager.close();
+     ```
+   - **Alternate:** In Hibernate, you can use `save` for a similar purpose.
+
+### 3. **saveOrUpdate:**
+   - **JPA or Hibernate:** Hibernate
+   - **Use:** This method is used to either save a new entity or update an existing one, depending on whether an identifier is assigned to the entity.
+   - **Code:**
+     ```java
+     Session session = sessionFactory.openSession();
+     Transaction transaction = session.beginTransaction();
+     session.saveOrUpdate(entity);
+     transaction.commit();
+     session.close();
+     ```
+   - **Alternate:** In JPA, there isn't a direct equivalent. You typically use `persist` for new entities and `merge` for existing ones.
+
+### 4. **delete:**
+   - **JPA or Hibernate:** JPA and Hibernate
+   - **Use:** This method is used to delete an entity from the database.
+   - **Code:**
+     ```java
+     EntityManager entityManager = entityManagerFactory.createEntityManager();
+     entityManager.getTransaction().begin();
+     entityManager.remove(entity);
+     entityManager.getTransaction().commit();
+     entityManager.close();
+     ```
+   - **Alternate:** In Hibernate, you can use `session.delete(entity)`; in JPA, there isn't a direct equivalent.
+
+### 5. **get:**
+   - **JPA or Hibernate:** Hibernate,JPA
+   - **Use:** This method is used to retrieve an entity by its identifier.Throws an exception if not found.
+   - **Code:**
+     ```java
+     Session session = sessionFactory.openSession();
+     Transaction transaction = session.beginTransaction();
+     EntityClass entity = (EntityClass) session.get(EntityClass.class, entityId);
+     transaction.commit();
+     session.close();
+     ```
+   - **Alternate:** In JPA, you can use `find` method: `entityManager.find(EntityClass.class, entityId)`.
+   - **Difference:** load() throws a LazyInitializationException if the entity is accessed outside of a transaction.
+
+### 6. **load:**
+   - **JPA or Hibernate:** Hibernate,JPA
+   - **Use:** This method is used to retrieve an entity by its identifier, but it returns a proxy (a placeholder) without hitting the database until a method is called on the proxy.
+   - **Code:**
+     ```java
+     Session session = sessionFactory.openSession();
+     Transaction transaction = session.beginTransaction();
+     EntityClass entity = (EntityClass) session.load(EntityClass.class, entityId);
+     transaction.commit();
+     session.close();
+     ```
+   - **Alternate:** In JPA, you can use `getReference` method: `entityManager.getReference(EntityClass.class, entityId)`.
+
+### 7. **evict:**
+   - **JPA or Hibernate:** Hibernate
+   - **Use:** This method is used to remove an entity from the Hibernate session cache.
+   - **Code:**
+     ```java
+     Session session = sessionFactory.openSession();
+     EntityClass entity = (EntityClass) session.get(EntityClass.class, entityId);
+     session.evict(entity);
+     session.close();
+     ```
+   - **Alternate:** In JPA, you can use `EntityManager.clear()` to clear the entire persistence context.
+   - **Difference:** detach() also removes relationships.
+
+### 8. **update:**
+   - **JPA or Hibernate:** Hibernate
+   - **Use:** This method is used to reattach a detached object to the session and synchronize it with the database.
+   - **Code:**
+     ```java
+     Session session = sessionFactory.openSession();
+     Transaction transaction = session.beginTransaction();
+     session.update(entity);
+     transaction.commit();
+     session.close();
+     ```
+   - **Alternate:** In JPA, you can use `merge` method: `entityManager.merge(entity)`.
+   - **Difference:** merge() handles detached entities as well.
+
+
+### 9. **merge:**
+   - **JPA or Hibernate:** JPA
+   - **Use:** This method is used to merge the state of a detached entity into the current persistence context.
+   - **Code:**
+     ```java
+     EntityManager entityManager = entityManagerFactory.createEntityManager();
+     entityManager.getTransaction().begin();
+     entityManager.merge(entity);
+     entityManager.getTransaction().commit();
+     entityManager.close();
+     ```
+   - **Alternate:** In Hibernate, you can use `update` for a similar purpose.
+
+### 10. **detach:**
+   - **JPA or Hibernate:** JPA
+   - **Use:** This method is used to detach an entity from the persistence context, making it detached or transient.
+   - **Code:**
+     ```java
+     EntityManager entityManager = entityManagerFactory.createEntityManager();
+     entityManager.detach(entity);
+     ```
+
+### 11. **clear:**
+   - **JPA or Hibernate:** JPA
+   - **Use:** This method is used to clear the entire persistence context, detaching all managed entities.
+   - **Code:**
+     ```java
+     EntityManager entityManager = entityManagerFactory.createEntityManager();
+     entityManager.clear();
+     ```
+
+### 12. **close:**
+   - **JPA or Hibernate:** Both JPA and Hibernate
+   - **Use:** This method is used to close the session or entity manager.
+   - **Code:**
+     ```java
+     Session session = sessionFactory.openSession();
+     session.close();
+     // OR
+     EntityManager entityManager = entityManagerFactory.createEntityManager();
+     entityManager.close();
+     ```
+
+### 13. **remove:**
+   - **JPA or Hibernate:** JPA
+   - **Use:** This method is used to delete an entity from the database.
+   - **Code:**
+     ```java
+     EntityManager entityManager = entityManagerFactory.createEntityManager();
+     entityManager.getTransaction().begin();
+     entityManager.remove(entity);
+     entityManager.getTransaction().commit();
+     entityManager.close();
+     ```
+   - **Alternate:** In Hibernate, you can use `session.delete(entity)`; in JPA, both `remove` and `delete` are used for the same purpose.
+     
+### 13. **persist, save, and saveOrUpdate**
+Certainly, let's summarize the differences between `persist`, `save`, and `saveOrUpdate` in a table format:
+
+| Parameter                 | `persist`                                      | `save`                                      | `saveOrUpdate`                                      |
+|---------------------------|------------------------------------------------|---------------------------------------------|-----------------------------------------------------|
+| **JPA or Hibernate**      | JPA                                            | Hibernate                                   | Hibernate                                           |
+| **Return value**          | void                                           | Serializable                                | void                                                |
+| **ID generation**          | Generates ID if none exists                   |  Generates ID if none exists               |  Generates ID if none exists                            |
+| **Entity state**          | Entity state	                   | Entity state	               |  Transient to Persistent or Detached to Persistent         |
+| **Use**                   | Make an entity instance managed and persistent | Save an entity to the database              | Either save a new entity or update an existing one  |
+| **Code Example**          | ```entityManager.persist(entity);```           | ```session.save(entity);```                | ```session.saveOrUpdate(entity);```                 |
+| **When to Use**           | For new entities                                | For both new and existing entities         | For both new and existing entities                   |
+| **Identifier Behavior**   | Does not guarantee immediate execution         | May insert or update based on identifier   | May insert or update based on identifier             |
+| **Primary Key Required**  | No                                             | No                                          | No                                                  |
+
+**When to Use:**
+- Use `persist` for new entities in a JPA context. It is primarily designed for managing the lifecycle of new entities.
+- Use `save` in Hibernate for saving both new and existing entities. It is a more flexible method that can handle various scenarios.
+- Use `saveOrUpdate` in Hibernate when you want to save a new entity or update an existing one without checking explicitly whether the entity already exists.
+- persist(): Use when you're certain you're saving a new entity and don't need the generated ID immediately.
+- save(): Use when you need the generated ID immediately after saving a new entity.
+- saveOrUpdate(): Use when you're unsure whether an entity is new or existing, and you want to handle both cases in a single method call.
+**Important Notes:**
+- While `persist` is specific to JPA, `save` and `saveOrUpdate` are specific to Hibernate.
+- JPA, being a specification, doesn't provide `save` or `saveOrUpdate`. Hibernate, as an implementation of JPA, provides these methods for additional flexibility.
+- In JPA, the primary equivalent to `save` is `persist`, and there isn't a direct equivalent to `saveOrUpdate`. The behavior of `saveOrUpdate` can be achieved using a combination of `merge` and proper entity management.
+- Always consider the specific requirements and behavior of your application when choosing between these methods.
+
+Remember that the choice between these methods may depend on the specific use case and the underlying persistence provider you are using.
+
+
+
+### Keys
 ### Primary key
 ![image](https://github.com/jdbirla/JD_Spring_Data_JPA_Hibernate_Master/assets/69948118/4704b177-e186-4a8b-ac3c-542854f39f30)
 
